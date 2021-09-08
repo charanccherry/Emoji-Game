@@ -1,0 +1,49 @@
+.winOrLose-card {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: transparent;
+  border-radius: 10px;
+}
+.winOrLose-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.score-head {
+  font-size: 50px;
+  font-weight: bold;
+  color: goldenrod;
+  font-family: 'Sans Serif';
+  margin: 10px;
+  margin-bottom: 20px;
+}
+.score-label {
+  font-size: 30px;
+  font-weight: yellowgreen;
+  color: white;
+  font-family: 'Sans Serif';
+  margin: 10px;
+}
+.score {
+  font-size: 30px;
+  font-weight: bold;
+  color: #9544ed;
+  font-family: 'Sans Serif';
+  margin: 10px;
+}
+.play-again {
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  font-family: 'Sans Serif';
+  margin-top: 20px;
+  border-radius: 10px;
+  border: 2px solid yellowgreen;
+  padding: 20px;
+}
+.image-Url {
+  margin-left: 150px;
+}
