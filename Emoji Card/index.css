@@ -1,0 +1,29 @@
+.emojiItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  border: 2px solid goldenrod;
+  border-radius: 10px;
+  background-image: radial-gradient(#dbc0f9 #8cda93);
+  margin: 20px;
+  pointer-events: stroke;
+  outline: thick;
+}
+@media screen and (max-width: 576px) {
+  .emojiItem {
+    padding: 15px;
+    margin: 10px;
+  }
+}
+.emoji-image {
+  height: 100px;
+  width: 100px;
+}
+@media screen and (max-width: 576px) {
+  .emoji-image {
+    height: 60px;
+    width: 60px;
+  }
+}
