@@ -1,0 +1,48 @@
+.emoji-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: linear-gradient(to right, #8cda93, #dbc0f9, #8cda93);
+  padding: 10px;
+  width: 50%;
+  border: 2px solid yellowgreen;
+  border-radius: 10px;
+}
+@media screen and (max-width: 576px) {
+  .emoji-header {
+    width: 30%;
+  }
+}
+.logo-part {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  height: 40px;
+  width: 40px;
+  margin-top: 10px;
+  margin-right: 10px;
+  background-color: transparent;
+}
+@media screen and (max-width: 576px) {
+  .logo {
+    height: 30px;
+    width: 30px;
+  }
+}
+.text-head {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  font-family: 'Sans Serif';
+  margin: 10px;
+}
+
+.text {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  font-family: 'Sans Serif';
+  margin: 10px;
+  text-align: end;
+}
