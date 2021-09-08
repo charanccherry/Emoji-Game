@@ -1,0 +1,36 @@
+.emoji-Game-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(#dbc0f9, #8cda93);
+  height: 100vh;
+  padding: 50px;
+}
+
+.emoji-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to top, #8cda93, #dbc0f9);
+  height: 80vh;
+  width: 50%;
+  margin: 30px;
+  border-radius: 10px;
+  border: 2px solid yellowgreen;
+}
+@media screen and (max-width: 576px) {
+  .emoji-body {
+    width: 30%;
+  }
+}
+.emoji-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  padding: 0px;
+  max-width: 1000px;
+}
